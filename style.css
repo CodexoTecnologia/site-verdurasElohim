@@ -199,7 +199,6 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    /* TROQUE PELA SUA IMAGEM AQUI */
     background-image: url('images/bannerVerdurasElohim.jpg');
     background-size: cover;
     background-position: center;
@@ -208,7 +207,6 @@ ul {
     animation: kenBurns 20s infinite alternate ease-in-out;
 }
 
-/* A definição da animação */
 @keyframes kenBurns {
     0% {
         transform: scale(1);
