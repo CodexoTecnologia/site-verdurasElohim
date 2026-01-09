@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Fechar menu ao clicar em um link (Mobile)
     const navLinks = document.querySelectorAll('.nav-menu a');
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -49,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                // Ajuste para descontar a altura do header fixo (aprox 80px)
+
                 const headerOffset = 80;
                 const elementPosition = target.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
@@ -74,7 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
             
-            // 120px é uma margem de segurança para a troca ocorrer um pouco antes
             if (window.scrollY >= (sectionTop - 150)) {
                 current = section.getAttribute('id');
             }
@@ -82,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         navLinks.forEach(li => {
             li.classList.remove('active');
-            // Verifica se existe um ID atual e se o link corresponde a ele
+
             if (current && li.getAttribute('href').includes(current)) {
                 li.classList.add('active');
             }
@@ -96,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const revealOnScroll = () => {
         const windowHeight = window.innerHeight;
-        const elementVisible = 100; // Distância do topo para ativar a animação
+        const elementVisible = 100; 
 
         reveals.forEach((reveal) => {
             const elementTop = reveal.getBoundingClientRect().top;
@@ -107,9 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // Ativa a função ao rolar a página
     window.addEventListener('scroll', revealOnScroll);
     
-    // Executa uma vez no carregamento para mostrar o que já está visível
     revealOnScroll();
 });
