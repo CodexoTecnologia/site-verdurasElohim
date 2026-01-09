@@ -199,7 +199,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('images/bannerVerdurasElohim.jpg');
+    background-image: url('images/bannerVerdurasElohim.avif');
     background-size: cover;
     background-position: center;
     z-index: -1; 
@@ -290,7 +290,7 @@ ul {
     justify-content: center;
     font-size: 4rem;
     color: #aaa;
-    background-image: url('images/fotoNossaHistoria.jpg');
+    background-image: url('images/fotoNossaHistoria.avif');
     background-size: cover;
     background-position: center;
     
@@ -412,10 +412,10 @@ ul {
     background-size: cover;
     background-position: center;
 }
-.gallery-item:nth-child(1) { background-image: url('images/producao/producao-1.jpg'); }
-.gallery-item:nth-child(2) { background-image: url('images/producao/producao-2.jpg'); }
-.gallery-item:nth-child(3) { background-image: url('images/producao/producao-3.jpg'); }
-.gallery-item:nth-child(4) { background-image: url('images/producao/producao-4.jpg'); }
+.gallery-item:nth-child(1) { background-image: url('images/producao/producao-1.avif'); }
+.gallery-item:nth-child(2) { background-image: url('images/producao/producao-2.avif'); }
+.gallery-item:nth-child(3) { background-image: url('images/producao/producao-3.avif'); }
+.gallery-item:nth-child(4) { background-image: url('images/producao/producao-4.avif'); }
 
 /* --- Contato) --- */
 .cta-section {
