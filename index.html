@@ -1,11 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Verduras Elohim - Produção de hortaliças hidropônicas e tradicionais em Iracemápolis, SP. Frescor e qualidade direto do produtor.">
+    <title>Verduras Elohim | Qualidade e Frescor</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Verduras <span class="highlight">Elohim</span></a>
+            
+            <button class="mobile-menu-btn" aria-label="Abrir Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato" class="btn-contact">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Do campo direto para a sua mesa</h1>
+            <p>Hortaliças hidropônicas e tradicionais cultivadas com amor e qualidade em Iracemápolis.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5519996766210" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i> Peça pelo WhatsApp
+                </a>
+                <a href="#produtos" class="btn btn-outline">Ver Produtos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>Quem Somos</h2>
+                <p>A <strong>Verduras Elohim</strong> é uma empresa familiar dedicada ao cultivo de hortaliças de alta qualidade. Localizados na região de Geada, em Iracemápolis, combinamos técnicas tradicionais com a modernidade da hidroponia.</p>
+                <p>Nosso compromisso é entregar saúde e sabor, cuidando de cada etapa do plantio até a colheita, garantindo que o melhor alimento chegue à sua família.</p>
+                
+                <ul class="features-list">
+                    <li><i class="fas fa-leaf"></i> Cultivo Hidropônico e Tradicional</li>
+                    <li><i class="fas fa-hand-holding-water"></i> Uso consciente da água</li>
+                    <li><i class="fas fa-heart"></i> Produção Familiar</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <div class="img-placeholder" title="Foto da Estufa Hidropônica">
+                    <i class="fas fa-seedling"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa Produção</h2>
+                <p>Frescor colhido no dia para você.</p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Alface Hidropônica</h3>
+                    <p>Folhas limpas, crocantes e cultivadas em sistema protegido.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-carrot"></i></div>
+                    <h3>Legumes Frescos</h3>
+                    <p>Variedade sazonal direto da terra para sua cozinha.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-mortar-pestle"></i></div>
+                    <h3>Temperos e Ervas</h3>
+                    <p>Hortelã, cheiro-verde e especiarias para dar sabor aos seus pratos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nosso Dia a Dia</h2>
+                <p>Acompanhe nossa produção no Instagram <a href="https://www.instagram.com/elohim_verduras" target="_blank">@elohim_verduras</a></p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section contact-section">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Entre em Contato</h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><strong>Endereço:</strong><br>Rodovia SP 151 km 5 - Geada<br>Iracemápolis - SP, 13495-000</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p><strong>Telefone / WhatsApp:</strong><br>(19) 99676-6210</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="far fa-clock"></i>
+                        <p><strong>Horário de Funcionamento:</strong><br>Todos os dias<br>Das 08:00 às 18:00</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/5519996766210" class="btn btn-whatsapp-large">
+                    <i class="fab fa-whatsapp"></i> Iniciar Conversa
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-wrapper">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/elohim_verduras" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5519996766210" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <div class="footer-info">
+                <p>&copy; <span id="year"></span> <strong>Elohim Agro Comercial Ltda.</strong> Todos os direitos reservados.</p>
+            </div>
+
+            <div class="footer-credits">
+                <span>Desenvolvido por</span>
+                <a href="https://codexo.com.br" target="_blank" class="codexo-link" title="Desenvolvimento de Sites Profissionais">
+                    <img src="images/logo_codexo_nome_branco.svg" alt="Codexo" class="codexo-logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
